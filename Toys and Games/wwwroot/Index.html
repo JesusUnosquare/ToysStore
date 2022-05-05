@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>Hello Angular</title>
+    <script src="js/angular.js"></script>
+</head>
+<body>
+    <h1>Welcome to Toys & Games store!</h1>
+    <div ng-controller="ProductController as product">
+        <div ng-if="product.Form==1">
+            <a href="" ng-click="product.showAddFormF();">Add new product</a>
+            <table border="1">
+                <tr>
+                    <th><h5>Id</h5></th>
+                    <th><h5>Name</h5></th>
+                    <th><h5>Description</h5></th>
+                    <th><h5>Company</h5></th>
+                    <th><h5>Price</h5></th>
+                    <th><h5>AgeRestriction</h5></th>
+                    <th><h5>Image</h5></th>
+                    <th><h5>Action Update</h5></th>
+                    <th><h5>Action Delete</h5></th>
+                </tr>
+                <tr ng-repeat="item in product.ProductList">
+                    <td>{{ item.id}}</td>
+                    <td>{{ item.name}}</td>
+                    <td>{{ item.description}}</td>
+                    <td>{{ item.company}}</td>
+                    <td>{{ item.price}}</td>
+                    <td>{{ item.ageRestriction}}</td>
+                    <td><img ng-src="{{item.imageLink}}" width="100" height="100" /></td>
+                    <td><button type="button" ng-click="product.showUpdateFormF(item);"> <h6>Update</h6></button></td>
+                    <td><button type="button" ng-click="product.deleteProduct(item.id,$index,item.name)"> <h6>Delete</h6></button></td>
+                </tr>
+            </table>
+        </div>
+        <div ng-if="product.Form==2">
+            <form name="addForm" ng-submit="product.addProduct(product.newName,product.newDescription,product.newAgeRestriction,product.newPrice,product.newCompany,product.newImageLink);">
+                <p><input type="text" placeholder="Name" maxlength="50" ng-model="product.newName" required /></p>
+                <p><input type="text" placeholder="Description" maxlength="100" ng-model="product.newDescription" required /></p>
+                <p><input type="number" placeholder="AgeRestriction" min="0" max="100" step="1" ng-model="product.newAgeRestriction" required /></p>
+                <p><input type="text" placeholder="Company" maxlength="50" ng-model="product.newCompany" required /></p>
+                <p><input type="number" placeholder="Price" step="0.001" min="1" max="1000" ng-model="product.newPrice" required /></p>
+                <p><input type="text" placeholder="Image Link" maxlength="300" ng-model="product.newImageLink" required /></p>
+                <p><button type="button" ng-click="product.showMainFormF();">Cancel</button><button type="submit" ng-disabled="addForm.$invalid">Add</button></p>
+            </form>
+        </div>
+        <div ng-if="product.Form==3">
+            <form name="addForm" ng-submit="product.updateProduct(product.UpdateProd.id,product.UpdateProd.name,product.UpdateProd.description,product.UpdateProd.ageRestriction,product.UpdateProd.price,product.UpdateProd.company,product.UpdateProd.imageLink);">
+                <p><input type="text" placeholder="Name" maxlength="50" ng-model="product.UpdateProd.name" required /></p>
+                <p><input type="text" placeholder="Description" maxlength="100" ng-model="product.UpdateProd.description" required /></p>
+                <p><input type="number" placeholder="AgeRestriction" min="0" max="100" step="1" ng-model="product.UpdateProd.ageRestriction" required /></p>
+                <p><input type="text" placeholder="Company" maxlength="50" ng-model="product.UpdateProd.company" required /></p>
+                <p><input type="number" placeholder="Price" step="0.001" min="1" max="1000" ng-model="product.UpdateProd.price" required /></p>
+                <p><input type="text" placeholder="Image Link" maxlength="300" ng-model="product.UpdateProd.imageLink" required /></p>
+                <p><button type="button" ng-click="product.showMainFormF();">Cancel</button><button type="submit" ng-disabled="addForm.$invalid">Update</button></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/MainController.js"></script>
+    <script src="js/ProductController.js"></script>
+</body>
+</html>

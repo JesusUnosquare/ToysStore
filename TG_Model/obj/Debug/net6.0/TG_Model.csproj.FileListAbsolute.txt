@@ -1,0 +1,12 @@
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\bin\Debug\net6.0\TG_Model.deps.json
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\bin\Debug\net6.0\TG_Model.dll
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\bin\Debug\net6.0\TG_Model.pdb
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\TG_Model.csproj.AssemblyReference.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\TG_Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\TG_Model.AssemblyInfoInputs.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\TG_Model.AssemblyInfo.cs
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\TG_Model.csproj.CoreCompileInputs.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\TG_Model.dll
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\refint\TG_Model.dll
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\TG_Model.pdb
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Model\obj\Debug\net6.0\ref\TG_Model.dll

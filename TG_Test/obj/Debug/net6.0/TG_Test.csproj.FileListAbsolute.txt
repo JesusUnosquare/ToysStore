@@ -1,0 +1,7 @@
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Test\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Test\obj\Debug\net6.0\TG_Test.csproj.AssemblyReference.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Test\obj\Debug\net6.0\MvcTestingAppManifest.json
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Test\obj\Debug\net6.0\TG_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Test\obj\Debug\net6.0\TG_Test.AssemblyInfoInputs.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Test\obj\Debug\net6.0\TG_Test.AssemblyInfo.cs
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_Test\obj\Debug\net6.0\TG_Test.csproj.CoreCompileInputs.cache

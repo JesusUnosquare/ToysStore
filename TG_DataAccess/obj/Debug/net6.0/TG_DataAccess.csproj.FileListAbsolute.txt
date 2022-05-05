@@ -1,0 +1,17 @@
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\bin\Debug\net6.0\TG_DataAccess.deps.json
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\bin\Debug\net6.0\TG_DataAccess.runtimeconfig.json
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\bin\Debug\net6.0\TG_DataAccess.dll
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\bin\Debug\net6.0\TG_DataAccess.pdb
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\bin\Debug\net6.0\TG_Model.dll
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\bin\Debug\net6.0\TG_Model.pdb
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.csproj.AssemblyReference.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.AssemblyInfoInputs.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.AssemblyInfo.cs
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.csproj.CopyComplete
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.dll
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\refint\TG_DataAccess.dll
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.pdb
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\TG_DataAccess.genruntimeconfig.cache
+C:\Users\jesus.martinez\source\repos\Toys and Games\TG_DataAccess\obj\Debug\net6.0\ref\TG_DataAccess.dll
